@@ -159,11 +159,11 @@ viewFeatureControl options =
             [ Attr.class "control__button"
             , Html.Events.onClick (UserClickedPrevious options.feature)
             ]
-            [ text "<-" ]
+            [ text "👈" ]
         , Html.span [ Attr.class "control__label" ] [ text options.label ]
         , Html.button
             [ Attr.class "control__button"
             , Html.Events.onClick (UserClickedNext options.feature)
             ]
-            [ text "->" ]
+            [ text "👉 " ]
         ]

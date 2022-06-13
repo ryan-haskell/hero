@@ -12,8 +12,7 @@ view options =
         , width "500px"
         , height "500px"
         ]
-        [ background
-        , viewBody options
+        [ viewBody options
         , viewHead options
         ]
 
