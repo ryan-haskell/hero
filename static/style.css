@@ -1,0 +1,61 @@
+.head {
+  animation: head-bob 1500ms ease-in-out infinite;
+}
+
+.torso {
+  animation: torso-bob 1500ms ease-in-out infinite;
+}
+
+.hand {
+  animation: hand-bob 1500ms ease-in-out infinite;
+}
+
+.eyelids__top {
+  animation: eyelids__top-blink 10000ms infinite;
+}
+
+.eyelids__bottom {
+  animation: eyelids__bottom-blink 10000ms infinite;
+}
+
+@keyframes head-bob {
+  0% { transform: none; }
+  50% { transform: translateY(-2%); }
+  100% { transform: none; }
+}
+
+@keyframes eyelids__top-blink {
+  0% { transform: none; }
+  46% { transform: none; }
+  49% { transform: none; }
+  50% { transform: translateY(5%); }
+  51% { transform: none; }
+  52% { transform: translateY(5%); }
+  53% { transform: none; }
+  54% { transform: none; }
+  100% { transform: none; }
+}
+
+@keyframes eyelids__bottom-blink {
+  0% { transform: none; }
+  46% { transform: none; }
+  49% { transform: none; }
+  50% { transform: translateY(-5%); }
+  51% { transform: none; }
+  52% { transform: translateY(-5%); }
+  53% { transform: none; }
+  54% { transform: none; }
+  100% { transform: none; }
+}
+
+@keyframes torso-bob {
+  0% { transform: none; }
+  50% { transform: translateY(-3%); }
+  100% { transform: none; }
+}
+
+@keyframes hand-bob {
+  0% { transform: none; }
+  50% { transform: translateY(-2%); }
+  100% { transform: none; }
+}
